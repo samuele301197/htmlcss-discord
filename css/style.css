@@ -1,0 +1,186 @@
+*{
+        /* RESET ; */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.img{
+    max-width: 100%;
+}
+/* FINE RESET */
+
+/* COMMON */
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col {
+    padding: 10px;
+    border: 1px solid blue;
+    flex-direction: row;
+    margin: 10px 0;
+    }
+    /* FINE COMMON */
+  
+ .header{
+     background-color: orange;
+     height: 80px;
+     display: flex;
+     padding: 15px;
+ }
+
+ .footer{
+    background-color: black;
+    height: 60px;
+    padding: 10px; 10px;
+
+ }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.endbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.title{
+    border: 1px solid black;
+    margin: 15px;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.link-title{
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+   display: inline-block;
+    border: 1px solid whitesmoke;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.flex{
+min-height: 100px;
+    display: flex;
+    height: 30%;
+  
+}
+
+.col-1{
+    width: 100%;
+    background-color: brown;
+}
+
+.background{
+    background-color: blue;
+    padding: 5px;
+}
+
+.background-2{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.background-3{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.background-4{
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.background-5{
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.background-6{
+    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.col-2{
+    background-color: cornflowerblue;
+    width: 70%;
+}
+
+.col-3{
+    background-color: red;
+    width: 30%;
+}
+
+.col-4{
+    background-color: darkmagenta;
+    width: 30%;
+}
+
+.col-5{
+    background-color: lightcoral;
+    width: 70%;
+}
+
+.col-6{
+    background-color: darkgoldenrod;
+    width: 70%;
+}
+
+.col-7{
+    background-color: lawngreen;
+    width: 30%;
+}
+
+
+.col-8{
+    background-color:salmon;
+    width: 100%;
+}
+
+.col-9{
+    background-color:yellow;
+    width: 60%;
+
+;
+}
+
+.col-10{
+    background-color:rebeccapurple;
+    width: 10%;
+}
+
+.col-11{
+    background-color: forestgreen;
+    width: 10%;
+}
+
+.col-12{
+    background-color:yellowgreen;
+    width: 10%;
+}
+
+.col-13{
+    background-color:seagreen;
+    width: 10%;
+}
+
