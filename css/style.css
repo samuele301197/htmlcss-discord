@@ -22,7 +22,6 @@
 
 .col {
     padding: 30px;
-    border: 1px solid blue;
     flex-direction: row;
     margin: 10px 0;
 }
@@ -30,7 +29,7 @@
 .flex{
     min-height: 100px;
         display: flex;
-        height: 30%;
+
 }
 
 .button{
@@ -74,7 +73,7 @@ p{
 }
 
  .footer{
-    background-color: black;
+    background-color: #000b16;
     height: 60px;
     padding: 10px; 10px;
  }
@@ -95,12 +94,12 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     justify-content: space-between;
+    border-top: 1px solid white;
 }
 
 a{
-    margin: 5px;
+    margin: 10px;
     text-decoration: none;
     color: white;
 }
@@ -109,12 +108,29 @@ a{
     color: black;
 }
 
-ul{
+.ul-li{
 display: flex;
 list-style: none;
 justify-content: space-between;
 }
 
+ul{
+    list-style: none;
+}
+
+.img-ita{
+width: 35px;
+}
+
+i{
+    width: 30px;
+    height: 35px;
+}
+
+.h-blue{
+    color: darkslategray;
+    margin-bottom: 10px;
+}
 .button-bar{
     display: inline-block;
     vertical-align: middle;
@@ -128,7 +144,6 @@ justify-content: space-between;
     border-radius: 30px;
     padding: 5px;
     margin-right: 10px;
-
 }
 
 .button-discord{
@@ -137,6 +152,15 @@ background-color: black;
 border-radius: 30px;
 padding: 5px;
 margin-left: 10px;
+}
+
+.button-mac{
+    background-color: blue;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 380px;
+    margin-top: 20px;
 }
 
 .background{
@@ -164,19 +188,31 @@ margin-left: 10px;
 
 .background-5{
     background-color: lightgray;
-    padding: 10px;
+    padding: 50px;
 }
 
 .background-6{
-    background-color: black;
+    background-color: #000b16;
     padding: 10px;
-    border-bottom: 1px solid white;
+
 }
 
 .big-logo{
     display: flex;
 }
 
+.h-3{
+    margin-left: 300px;
+}
+
+.ul-end{
+text-align: center;
+}
+
+.li-end{
+    margin-top: 10px;
+    color: white;
+}
 .col-1{
     flex-direction: column;
 }
@@ -206,7 +242,6 @@ background-size: cover;
     width: 35%;
 }
 
-
 .col-8{
     width: 100%;
 display: flex;
@@ -214,29 +249,25 @@ flex-direction: column;
 }
 
 .col-9{
-    background-color:yellow;
-    width: 60%;
+    width: 40%;
+    height: 250px
 
 ;
 }
 
 .col-10{
-    background-color:rebeccapurple;
-    width: 10%;
+    width: 15%;
 }
 
 .col-11{
-    background-color: forestgreen;
-    width: 10%;
+    width: 15%;
 }
 
 .col-12{
-    background-color:yellowgreen;
-    width: 10%;
+    width: 15%;
 }
 
 .col-13{
-    background-color:seagreen;
-    width: 10%;
+    width: 15%;
 }
 
